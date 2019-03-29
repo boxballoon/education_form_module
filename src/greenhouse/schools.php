@@ -1,0 +1,5 @@
+<?php
+
+// SCHOOLS SEARCH/FILTER
+
+?>

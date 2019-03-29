@@ -2,7 +2,7 @@
 # Education Form Module    
 
 Documentation   
-[Job Board](https://developers.greenhouse.io/job-board.html)       
+See [Job Board](https://developers.greenhouse.io/job-board.html) for full documentation.           
 
 1. Click on [Educations](https://developers.greenhouse.io/job-board.html#educations) in the left menu.     
 1. Click on [List of Schools](https://developers.greenhouse.io/job-board.html#list-schools).    
