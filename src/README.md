@@ -2,7 +2,7 @@
 API driven search filter for major colleges in the United States.   
 
 
-## Per
+## Dependencies  
 
 1. [jQuery](https://jquery.com/) because we love jQuery...    
 1. [Parsley](http://parsleyjs.org/) for validation.   
