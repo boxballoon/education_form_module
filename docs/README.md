@@ -15,7 +15,8 @@ GET https://boards-api.greenhouse.io/v1/boards/{board_token}/education/schools
 Our token is **romeopower**       
 
 ## Expectations    
-See wireframes for a visual.   
+See [wireframes](https://github.com/boxballoon/education_form_module/tree/master/docs/images/wireframes) for a visual.   
+Use [material icons](https://material.io/tools/icons/) for the search icon used in the wireframes.   
 
 1. The user begins typing in the input field. They type the word "State".   
 1. A select menu will appear below the input field containing all the matching results.
