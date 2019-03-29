@@ -8,6 +8,11 @@ See [Job Board](https://developers.greenhouse.io/job-board.html) for full docume
 1. Click on [List of Schools](https://developers.greenhouse.io/job-board.html#list-schools).    
 
 This is the API endpoint you will use to GET matching results when a user types a minimum of 4 characters.
+```   
+GET https://boards-api.greenhouse.io/v1/boards/{board_token}/education/schools
+```  
+
+Our token is **romeopower**       
 
 ## Expectations    
 See wireframes for a visual.   
