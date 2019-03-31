@@ -40,6 +40,7 @@
         });
       });
 
+      // This is to check if any item was selected and to store its id if any.
       function isSelected() {
         var term = $('#name').val();
         var options = document.getElementById('school-list').children;
@@ -54,6 +55,8 @@
         return false;
       }
 
+      // This function is triggered by user's input and selection from list.
+      // If it is input we pull school list from api and fill list. If it is selection from list, we store item id and don't call api.
       function onInput() {
         window.setTimeout(() => {
           if (isSelected()) {
