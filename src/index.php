@@ -22,22 +22,8 @@
 
     </form>
 
-
-    <script type="text/javascript">
-    $(function () {
-      $('#demo-form').parsley().on('field:validated', function() {
-        var ok = $('.parsley-error').length === 0;
-        $('.bs-callout-info').toggleClass('hidden', !ok);
-        $('.bs-callout-warning').toggleClass('hidden', ok);
-      })
-      .on('form:submit', function() {
-
-        console.log("LOG THE VALUE OF THE SEARCH FIELD HERE.");
-
-        return false; // Don't submit form for this demo
-      });
-    });
-    </script>
+    <script src="greenhouse/js/demo_script.js" type="text/javascript"></script>
+    <script src="greenhouse/js/scripts.js" type="text/javascript"></script>
 
   </body>
 </html>
