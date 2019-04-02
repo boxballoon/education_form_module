@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 152px;
+}
+
+#schools {
+  width: 100%;
+  height: 138px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 5px 14px 5px 5px;
+  border: 1px solid darkgray;
+}
+
+#schoolsList {
+  width: 100%;
+  height: 55px;
+  padding: 5px 5px 5px 12px;
+  font-size: 25px;
+}
+
+#searchButton {
+  position: absolute;
+  top: 232px;
+  left: 68%;
+  padding: 3px;
+  font-size: 35px;
+  color: darkgray;
+}
+
+.schools {
+  cursor: pointer;
+  border: none;
+  padding: 6px;
+  width: 100%;
+  margin-left: 1px;
+  font-size: 25px;
+  color: darkgray;
+}
+
+.loading {
+  margin-top: -135px;
+  margin-left: 25%;
+}

@@ -12,7 +12,7 @@ $(function () {
   .on('form:submit', function() {
 
     console.log("LOG THE VALUE OF THE SEARCH FIELD HERE.");
-
+    console.log($("#schoolsList").attr('class'));
     return false; // Don't submit form for this demo
   });
 });
